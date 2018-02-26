@@ -5,6 +5,9 @@ var alphabetString =
 
 var input = 'Will the real Slim Shady please stand up?';
 
+// Launch
+console.log(convertToMorse(input));
+
 // Converts a single char into morse code
 function charToMorseCode(char) {
   var idxStart = alphabetString.indexOf(char);
@@ -29,6 +32,3 @@ function convertToMorse(inputStr) {
 
   return 'Error: No input found';
 }
-
-// launch
-console.log(convertToMorse(input));
